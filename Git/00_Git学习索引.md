@@ -27,11 +27,11 @@ Git 是**分布式版本控制系统**：每个克隆下来的仓库都保存完
 
 ## 三个核心区域
 
-| 区域 | 含义 | 常用命令 |
-| --- | --- | --- |
-| 工作区（working tree） | 文件在磁盘上的当前状态 | `git status`、`git diff` |
-| 暂存区（staging area / index） | 下一次提交准备包含的内容 | `git add`、`git restore --staged` |
-| 本地仓库（repository） | 已提交的版本历史 | `git commit`、`git log`、`git switch` |
+| 区域                        | 含义           | 常用命令                                |
+| ------------------------- | ------------ | ----------------------------------- |
+| 工作区（working tree）         | 文件在磁盘上的当前状态  | `git status`、`git diff`             |
+| 暂存区（staging area / index） | 下一次提交准备包含的内容 | `git add`、`git restore --staged`    |
+| 本地仓库（repository）          | 已提交的版本历史     | `git commit`、`git log`、`git switch` |
 
 远程仓库不是第四个本地区域，而是另一个仓库的引用。`git fetch` 会下载远程历史，`git push` 会上传本地提交。
 
